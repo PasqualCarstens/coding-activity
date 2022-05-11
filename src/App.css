@@ -1,0 +1,15 @@
+.Body {
+  position: relative;
+  min-height: 100vh;
+}
+.Body::after {
+  content: "";
+  display: block;
+  height: 50px;
+}
+
+.Body::before {
+  content: "";
+  display: block;
+  height: 80px;
+}
