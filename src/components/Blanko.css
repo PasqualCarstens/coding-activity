@@ -1,0 +1,25 @@
+.body {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.block {
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.space {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+}
