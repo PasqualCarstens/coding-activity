@@ -35,7 +35,9 @@ export default function Home() {
       <br />
       <div>Games Won: {score}</div>
       <br />
-      <button onClick={reset}>Reset</button>
+      <button className="btn btn-outline-dark w-50" onClick={reset}>
+        Reset
+      </button>
     </div>
   );
 }

@@ -1,6 +1,7 @@
 .Body {
   position: relative;
   min-height: 100vh;
+  font-family: "Poppins", sans-serif;
 }
 .Body::after {
   content: "";

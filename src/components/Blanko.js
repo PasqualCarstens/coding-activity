@@ -47,7 +47,9 @@ export const Blanko = () => {
         )}
       </div>
       <br />
-      <button onClick={updateScore}>Submit</button>
+      <button className="btn btn-outline-dark w-50" onClick={updateScore}>
+        Submit
+      </button>
     </div>
   );
 };

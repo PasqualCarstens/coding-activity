@@ -9,17 +9,23 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  font-weight: 300;
+  font-size: 30px;
 }
 
 .block {
-  width: 20px;
-  height: 20px;
+  width: 40px;
+  height: 40px;
   border: 1px solid black;
   text-align: center;
 }
 
 .space {
-  width: 20px;
-  height: 20px;
+  width: 40px;
+  height: 40px;
   text-align: center;
+}
+
+button {
+  margin-left: 11px;
 }
